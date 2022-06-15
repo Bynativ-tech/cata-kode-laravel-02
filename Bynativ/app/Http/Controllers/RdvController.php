@@ -32,17 +32,10 @@ class RdvController extends Controller
     }
     public function lastRdv()
     {
-        // $rdvs = RdvResource::collection(rdv::all());
-        //RdvResource::collection(rdv::());
-        //$test = DB::table('rdvs')->latest('id')->first();
         $test = rdv::orderBy('id', 'desc')->first();
-        //$rdv = (array) $test;
-        //        $rdvx = RdvResource::collection(rdv::all());
 
         $rdv = $test->toArray();
-        // return $rdvs;
 
-        //return view('rdvLast', compact('rdv'));
         $rdv = $test->toJson();
         return view('rdvLast', compact('rdv'));
     }
@@ -73,6 +66,6 @@ class RdvController extends Controller
         $rdv->message = $request->message;
 
         $rdv->save();
-        return redirect('/rdv');
+        return redirect('/rdv/created');
     }
 }
