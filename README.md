@@ -42,6 +42,7 @@ Créer un formulaire de prise de rendez-vous avec les champs suivant :
 ### Contraintes
 - Le format de date persisté doit être au format EN avec le timezone UTC.
 - Un email de confirmation de rendez-vous doit être envoyé.
+- Avoir une route dédiée afin de voir apparaitre les nouveaux rendez-vous sans rechargement de page grâce à un websocket Pusher : ([https://laravel.com/docs/master/http-tests](https://pusher.com/)) 
   
 ### Tests
 Effectuer une série de tests (https://laravel.com/docs/master/http-tests) pour vérifier que les routes suivantes soient fonctionnelles :
