@@ -1,7 +1,7 @@
 # Laravel level 2
 **L'objectif de ce test est d'observer votre raisonnement et l'application des bonnes pratiques Laravel préconisées dans la documentation au travers d'un développement similaire à ce qui se fait chez Bynativ.**
 
-Vous êtes libre de réaliser le test au moment qu'il vous convient et en prenant le temps qu'il vous est nécessaire. Nous pensons qu'il peut être réalisé en 1h30, cette durée ne tient pas en compte de l'installation d'un environnement de développement PHP, MySQL, Laravel, Composer, Npm, ...
+Vous réaliserez le test en partage d'écran avec un référent bynativ. Vous pourrez prendre le temps qui vous est nécessaire. Nous pensons qu’il peut être réalisé en 1h30 / 2h00, cette durée ne tient pas en compte de l’installation d’un environnement de développement PHP, MySQL, Laravel, Composer, Npm, …
 
 Pour ce test, il vous faudra réaliser une partie d'un CRUD (Create, Read) pour une prise de rendez-vous, à partir de l'énoncé ci-dessous.
 
